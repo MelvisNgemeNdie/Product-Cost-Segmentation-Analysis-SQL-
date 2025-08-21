@@ -9,7 +9,7 @@ The analysis helps businesses understand product pricing distribution and optimi
 
 #### SQL queries
  ```sql
-/* Segment products into cost ranges categories :
+ ### Segment products into cost ranges categories :
 - Below 100.
 - Between 100 and 500.
 - Between 500 and 1000
