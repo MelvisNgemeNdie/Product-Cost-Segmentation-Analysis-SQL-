@@ -44,6 +44,20 @@ ORDER BY product_count DESC;
 | 500 - 1000 | 1132          |
 | Below 100  | 895           |
 | Above 1000 | 437           |
-- 
+- The majority of the products fall in the 100 - 500 cost range, surfacing the company portfolio is mainly mid-priced.
+
+
+  #### Recommendation & Next Moves
+  - Introduce more affordable products to balance the company's portfolio since products below $100 are limited, which can suggest a premium-heavy catalog.
+ #### Skills Highlighted
+
+
+- SQL (CTEs, CASE statements, aggregation).
+
+- Data segmentation and categorization.
+
+- Business insights and storytelling.
+
+- GitHub project documentation.
 
 
