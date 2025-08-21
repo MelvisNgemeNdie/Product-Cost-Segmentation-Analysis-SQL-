@@ -3,7 +3,7 @@
 This project segments products into cost ranges and counts the number of products in each segment.  
 The analysis helps businesses understand product pricing distribution and optimize pricing strategies.
 #### Objective
-- Categorize products into defined cost ranges (below $100, between $100 and $ 500, between 500 and 1000, above 1000).
+- Categorize products into defined cost ranges (**below $100**,**between $100 and $ 500**, **between 500 and 1000**, **above 1000**).
 - Count the number of products per cost segment.
 - Provide insights for pricing strategy and portfolio management.
 
