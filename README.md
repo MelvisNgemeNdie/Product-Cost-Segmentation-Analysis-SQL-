@@ -29,7 +29,8 @@ GROUP BY cost_range
 ORDER BY product_count DESC;
 
 
-####  Query Output And Insights
+```sql
+#### Query Output And Insights
 Cost Range	Product Count
 100 - 500	2145
 500 - 1000	1132
