@@ -9,12 +9,12 @@ The analysis helps businesses understand product pricing distribution and optimi
 
 #### SQL queries
  ```sql
- Segment products into cost ranges categories :
+/* Segment products into cost ranges categories :
 - Below 100.
 - Between 100 and 500.
 - Between 500 and 1000
 - Above 1000.
-
+*/
 WITH product_segments AS (
     SELECT 
         product_key,
@@ -28,6 +28,8 @@ WITH product_segments AS (
         END AS cost_range
     FROM public."gold.dim_products"
 )
+
+-- Compute the total number of products for each cost range category 
 SELECT 
     cost_range,
     COUNT(product_key) AS product_count
