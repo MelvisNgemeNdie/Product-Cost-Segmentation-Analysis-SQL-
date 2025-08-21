@@ -9,7 +9,7 @@ The analysis helps businesses understand product pricing distribution and optimi
 
 #### SQL queries
  ```sql
- ### Segment products into cost ranges categories :
+ Segment products into cost ranges categories :
 - Below 100.
 - Between 100 and 500.
 - Between 500 and 1000
@@ -34,6 +34,7 @@ SELECT
 FROM product_segments
 GROUP BY cost_range
 ORDER BY product_count DESC;
+
 #### Summary Table Of Insights
 
 | Cost Range | Product Count |
@@ -43,5 +44,4 @@ ORDER BY product_count DESC;
 | Below 100  | 895           |
 | Above 1000 | 437           |
 - The majority of products fall into the 100–500 cost range, showing the company portfolio is mainly mid-priced.
-
 
