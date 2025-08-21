@@ -24,6 +24,10 @@ WITH product_segments AS (
 SELECT 
     cost_range,
     COUNT(product_key) AS product_count
+FROM product_segments
+GROUP BY cost_range
+ORDER BY product_count DESC;
+
 
 ####  Query Output And Insights
 Cost Range	Product Count
@@ -31,6 +35,3 @@ Cost Range	Product Count
 500 - 1000	1132
 Below 100	895
 Above 1000	437
-FROM product_segments
-GROUP BY cost_range
-ORDER BY product_count DESC;
