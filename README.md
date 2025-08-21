@@ -26,4 +26,4 @@ SELECT
     COUNT(product_key) AS product_count
 FROM product_segments
 GROUP BY cost_range
-ORDER BY product_count DESC;
+ORDER BY product_count ASC;
