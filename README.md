@@ -35,13 +35,3 @@ FROM product_segments
 GROUP BY cost_range
 ORDER BY product_count DESC;
 
-#### Summary Table Of Insights
-
-| Cost Range | Product Count |
-| ---------- | ------------- |
-| 100 - 500  | 2145          |
-| 500 - 1000 | 1132          |
-| Below 100  | 895           |
-| Above 1000 | 437           |
-- The majority of products fall into the 100–500 cost range, showing the company portfolio is mainly mid-priced.
-
