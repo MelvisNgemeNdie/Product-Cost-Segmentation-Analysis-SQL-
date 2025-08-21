@@ -59,5 +59,9 @@ ORDER BY product_count DESC;
 - Business insights and storytelling.
 
 - GitHub project documentation.
-
+- 
+#### Tools & Technologies
+- SQL (PostgreSQL)
+- Excel / CSV (for data handling)
+- GitHub (Version Control & Portfolio Presentation)
 
