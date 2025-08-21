@@ -7,7 +7,8 @@ The analysis helps businesses understand product pricing distribution and optimi
 - Count the number of products per cost segment.
 - Provide insights for pricing strategy and portfolio management.
 #### SQL queries
-  WITH product_segments AS (
+ ```sql
+WITH product_segments AS (
     SELECT 
         product_key,
         product_name,
@@ -20,10 +21,9 @@ The analysis helps businesses understand product pricing distribution and optimi
         END AS cost_range
     FROM public."gold.dim_products"
 )
-
 SELECT 
     cost_range,
     COUNT(product_key) AS product_count
 FROM product_segments
 GROUP BY cost_range
-ORDER BY product_count ASC;
+ORDER BY product_count DESC;
