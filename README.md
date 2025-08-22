@@ -1,4 +1,4 @@
-## Product Cost Segmentation Analysis
+### Product Cost Segmentation Analysis
 #### Project Overview
 This project segments products into cost ranges and counts the number of products in each segment.  
 The analysis helps businesses understand product pricing distribution and optimize pricing strategies.
