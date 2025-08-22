@@ -1,13 +1,13 @@
-### Product Cost Segmentation Analysis
-#### Project Overview
+## Product Cost Segmentation Analysis
+### Project Overview
 This project segments products into cost ranges and counts the number of products in each segment.  
 The analysis helps businesses understand product pricing distribution and optimize pricing strategies.
-#### Objective
+### Objective
 - Categorize products into defined cost ranges (**below $100**,**between $100 and $ 500**, **between 500 and 1000**, **above 1000**).
 - Count the number of products per cost segment.
 - Provide insights for pricing strategy and portfolio management.
 
-#### SQL queries
+### SQL queries
  ```sql
 /* Segment products into cost ranges categories :
 - Below 100.
@@ -37,7 +37,7 @@ FROM product_segments
 GROUP BY cost_range
 ORDER BY product_count DESC;
  ```
-#### Summary Table Of Insights
+### Summary Table Of Insights
 | Cost Range | Product Count |
 | ---------- | ------------- |
 | 100 - 500  | 2145          |
@@ -46,16 +46,16 @@ ORDER BY product_count DESC;
 | Above 1000 | 437           |
 - The majority of the products fall in the 100 - 500 cost range, surfacing the company portfolio is mainly mid-priced.
 
-#### Recommendation & Next Moves
+### Recommendation & Next Moves
   - Introduce more affordable products to balance the company's portfolio since products below $100 are limited, which can suggest a premium-heavy catalog.
 
-#### Skills Highlighted
+### Skills Highlighted
 - SQL (CTEs, CASE statements, aggregation).
 - Data segmentation and categorization.
 - Business insights and storytelling.
 - GitHub project documentation.
 
-#### Tools & Technologies
+### Tools & Technologies
 - SQL (PostgreSQL)
 - Excel / CSV (for data handling)
 - GitHub (Version Control & Portfolio Presentation)
