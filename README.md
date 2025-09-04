@@ -60,6 +60,9 @@ ORDER BY product_count DESC;
 
 ### Recommendation & Next Moves
   - Introduce more affordable products to balance the company's portfolio since products below $100 are limited, which can suggest a premium-heavy catalog.
+  
+ 
+ ---
 
 ### Skills Demonstrated
 - SQL (CTEs, CASE statements, aggregation).
@@ -67,8 +70,12 @@ ORDER BY product_count DESC;
 - Business insights and storytelling.
 - GitHub project documentation.
 
+---
+
 ### Tools & Technologies
-- SQL (PostgreSQL)
-- Excel / CSV (for data handling)
-- GitHub (Version Control & Portfolio Presentation)
+- SQL (PostgreSQL).
+- Excel / CSV (for data handling).
+- GitHub (Version Control & Portfolio Presentation).
+
+---
 
