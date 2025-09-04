@@ -1,11 +1,20 @@
 ## Product Cost Segmentation Analysis
+
+---
+
 ### Project Overview
 This project segments products into cost ranges and counts the number of products in each segment.  
 The analysis helps businesses understand product pricing distribution and optimize pricing strategies.
-### Objective
+
+---  
+
+### The Problem
 - Categorize products into defined cost ranges (**below $100**,**between $100 and $ 500**, **between 500 and 1000**, **above 1000**).
 - Count the number of products per cost segment.
 - Provide insights for pricing strategy and portfolio management.
+
+---
+
 
 ### SQL queries
  ```sql
@@ -37,6 +46,10 @@ FROM product_segments
 GROUP BY cost_range
 ORDER BY product_count DESC;
  ```
+
+---
+
+
 ### Summary Table Of Insights
 | Cost Range | Product Count |
 | ---------- | ------------- |
@@ -45,6 +58,8 @@ ORDER BY product_count DESC;
 | Below 100  | 895           |
 | Above 1000 | 437           |
 - The majority of the products fall in the 100 - 500 cost range, surfacing the company portfolio is mainly mid-priced.
+
+---
 
 ### Recommendation & Next Moves
   - Introduce more affordable products to balance the company's portfolio since products below $100 are limited, which can suggest a premium-heavy catalog.
