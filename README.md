@@ -11,8 +11,6 @@ The analysis helps businesses understand product pricing distribution and optimi
 - Provide insights for pricing strategy and portfolio management.
 
 ---
-
-
 ### SQL queries
  ```sql
 /* Segment products into cost ranges categories :
