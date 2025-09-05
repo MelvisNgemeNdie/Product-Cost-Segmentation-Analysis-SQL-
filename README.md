@@ -78,4 +78,11 @@ ORDER BY product_count DESC;
 - GitHub (Version Control & Portfolio Presentation).
 
 ---
+### Key Takeawy
+- The analysis shows that over 60% of products (2,145 out of ~4,600) are priced between $100–$500, indicating a mid-priced portfolio concentration.
+- Affordable products (<$100) are underrepresented (only 19%), limiting accessibility for price-sensitive customers.
+- High-end products (> $1,000) make up less than 10% of the catalog, suggesting limited premium offerings.
+- **Strategic Insight**: Expanding the budget-friendly segment can help capture price-sensitive markets, while carefully growing the premium range could diversify revenue streams and strengthen brand positioning.
+
+---
 
